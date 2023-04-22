@@ -1,0 +1,8 @@
+double mm;
+    double km;
+
+    Console.WriteLine("Digite sua milha maritima");
+    mm = double.Parse(Console.ReadLine());
+    km = mm * 1852;
+    Console.WriteLine("Quilometros");
+    Console.WriteLine(km);
